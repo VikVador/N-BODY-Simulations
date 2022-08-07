@@ -49,8 +49,8 @@ make
 where,
 
 ```
-- <datatype> : 'random <n>' to generate a random galaxy of n bodies (perfect gas simulation) or 
-               'file simulations/<filename>' to load a galaxy from a file.
+- <datatype> : 'random <n>' to generate a random galaxy of n bodies (perfect gas simulation) 
+               or 'file simulations/<filename>' to load a galaxy from a file.
 - <method>   : simulation methods either naive or bht
 - <maxt>     : the total duration, in real time, of the simulation
 - <deltat>   : the delta of time (use 0.1)
