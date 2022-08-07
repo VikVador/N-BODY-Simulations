@@ -9,7 +9,7 @@ In physics and astronomy, an N-body simulation is a simulation of a dynamical sy
 
 ## Simulations
 
-| Planets (1) | Planets (2) | Perfect gas |
+| Planets (1) | Planets (2) |  Gas |
 |:-:|:-:|:-:|
 |![PacHUMAN](assets/planets1.gif)|![PacMAN](assets/planets2.gif)|![PacNET](assets/gas.gif)|
 | Galaxy (2) | Galaxy (3) | Galaxy (3 - Inverse force) |
@@ -49,7 +49,7 @@ make
 where,
 
 ```
-- <datatype> : 'random <n>' to generate a random galaxy of n bodies (perfect gas simulation) 
+- <datatype> : 'random <n>' to generate a random galaxy of n bodies (gas simulation) 
                or 'file simulations/<filename>' to load a galaxy from a file.
 - <method>   : simulation methods either naive or bht
 - <maxt>     : the total duration, in real time, of the simulation
@@ -68,3 +68,7 @@ As an illustration:
 - The result will be placed in the *results* folder.
 - The *naive* method consist of computing every particle interactions, this approach is very slow. However, using the *bht* method, 
   the solution will be computed using a N-Body method that reduces greatly the computation time.
+  
+## Acknowledgement
+
+Thank you to the one and only [Ali](https://www.linkedin.com/in/ali-sezgin-07117b236/) ! 
